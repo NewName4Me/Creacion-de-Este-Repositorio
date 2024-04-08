@@ -166,6 +166,8 @@ Ahora bien, si queremos comparar que cambios se realizaron entre dos commits deb
 
 Esto nos indicará las diferencias(diff) que hay entre uno y otro.
 
+![Foto de la diferencia](https://github.com/NewName4Me/MediaForReadMe/blob/main/gitdiff.png?raw=true)
+
 ## *Paso 8*: Aprender a trabajar con ramas de forma básica
 
 <div style="text-align: right">
