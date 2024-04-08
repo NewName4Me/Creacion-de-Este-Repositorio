@@ -4,6 +4,15 @@
 En este pequeño repositorio vas a aprender a como utilizar de forma básica herramientas como **Git** y **GitHub**
 Con el fin de realizar un **control de versiones adecuado**, aprender a trabajar en ramas y controlar los datos y cambios que suceden en nuestro programa o aplicación
 
++ [1. Crearnos una cuenta de GitHub](#paso-1-crearnos-una-cuenta-en-github)
++ [2. Descargamos Git](#paso-2-descargamos-git)
++ [3. Crearnos nuestro primer Repositorio](#paso-3-crearnos-nuestro-primer-repositorio)
++ [4. Abrir Git y Vincular Cuenta](#paso-4-crear-carpeta-y-vincularla-a-nuestro-repositorio)
++ [5. Vincular nuestro repositorio a la carpeta local](#paso-4-abrir-git-y-vincular-cuenta)
++ [6. Realizar los primeros cambios en Nuestro Repositorio](#paso-6-realizar-los-primeros-cambios-a-nuestro-directorio)
++ [7. Visualizar los cambios sucedidos entre Commits](#paso-7-visualizar-cambios-sucedidos-entre-commits)
++ [8. Aprender a trabajar con ramas de forma Básica](#paso-8-aprender-a-trabajar-con-ramas-de-forma-básica)
+
 
 ## *Paso 1*:   Crearnos una cuenta en GitHub
 GitHub es una plataforma que permite a los desarrolladores colaborar en proyectos de software utilizando el sistema de control de version de **Git** que veremos posteriormente. Ofrece herramientas para gestionar proyectos, realizar seguimiento de código, colaborar con desarrolladores y alojar repositorios.
@@ -33,7 +42,7 @@ A pesar de que podamos confundirla con **GitHub** porque da la sensación que ha
 
 ![Barra Lateral Git Hub](https://github.com/NewName4Me/MediaForReadMe/blob/main/direccionreposirotio.png?raw=true)
 
-## *Paso 4*: Crear Carpeta y Vincularla a Nuestro Repositorio
+## *Paso 4*: Abrir Git y Vincular Cuenta
 
 + Primero de todo creamos una carpeta cualquiera y en ella hacemos click derecho y abrimos *Git* que instalamos anteriormente, este nos va a abrir una terminal que nos concede una sería de comandos únicos que nos permiten el control de versiones
 
@@ -41,6 +50,7 @@ A pesar de que podamos confundirla con **GitHub** porque da la sensación que ha
 
 + En esta carpeta es donde vamos a tener localizados los archivos que subiremos a nuestro repositorio, por tanto lo que tenemos que hacer ahora es identicarnos con nuestro nombre de usuario y correo en GitHub, este paso es **totalmente opcional**, en caso de que solo quieras usar *Git* sin *GitHub* puedes saltartelo:
 
+Primero vamos a vincular esta carpeta a la cuenta que tenemos creada en GitHub
 
 Usuario:
 
