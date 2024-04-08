@@ -38,6 +38,7 @@ A pesar de que podamos confundirla con **GitHub** porque da la sensación que ha
 <div style="text-align: right">
     <a href="#creación-de-este-repositorio">Volver al Índice</a>
 </div><br>
+
 + Vamos a la barra lateral y pulsamos en el apartado de repositorios, que si este es tu primer repositorio debería estar vacío
 
 <br>
