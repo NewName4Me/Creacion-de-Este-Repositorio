@@ -168,6 +168,10 @@ Esto nos indicará las diferencias(diff) que hay entre uno y otro.
 
 ![Foto de la diferencia](https://github.com/NewName4Me/MediaForReadMe/blob/main/gitdiff.png?raw=true)
 
+Además si en algún momento te arrepientes de algún cambio realizado y quieres **retroceder a un estado previo** una vez con *git log* miras el identificador del commit al que quieres volver y escribes:
+
+    git checkout "nombreDelCommit"
+
 ## *Paso 8*: Aprender a trabajar con ramas de forma básica
 
 <div style="text-align: right">
