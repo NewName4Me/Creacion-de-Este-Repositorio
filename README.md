@@ -15,18 +15,32 @@ Con el fin de realizar un **control de versiones adecuado**, aprender a trabajar
 
 
 ## *Paso 1*:   Crearnos una cuenta en GitHub
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 GitHub es una plataforma que permite a los desarrolladores colaborar en proyectos de software utilizando el sistema de control de version de **Git** que veremos posteriormente. Ofrece herramientas para gestionar proyectos, realizar seguimiento de código, colaborar con desarrolladores y alojar repositorios.
 
+<br>
 
 ![Foto de mi Perfil de Github](https://github.com/NewName4Me/MediaForReadMe/blob/main/miperfil.png?raw=true)
 
 ## *Paso 2*: Descargamos Git
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 A pesar de que podamos confundirla con **GitHub** porque da la sensación que hacen lo mismo hay una gran diferencia : **Git** es el *sistema de control de versiones en sí mismo*, mientras que **GitHub** es una plataforma que *utiliza Git* para alojar y gestionar proyectos de software, facilitando la colaboración y la gestión del desarrollo de software en equipo.
+
+<br>
 
 ![Foto de mi Perfil de Github](https://github.com/NewName4Me/MediaForReadMe/blob/main/git.png?raw=true)
 
 ## *Paso 3*: Crearnos nuestro primer Repositorio
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 + Vamos a la barra lateral y pulsamos en el apartado de repositorios, que si este es tu primer repositorio debería estar vacío
+
+<br>
 
 ![Barra Lateral Git Hub](https://github.com/NewName4Me/MediaForReadMe/blob/main/lateral.png?raw=true)
 
@@ -43,6 +57,9 @@ A pesar de que podamos confundirla con **GitHub** porque da la sensación que ha
 ![Barra Lateral Git Hub](https://github.com/NewName4Me/MediaForReadMe/blob/main/direccionreposirotio.png?raw=true)
 
 ## *Paso 4*: Abrir Git y Vincular Cuenta
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 
 + Primero de todo creamos una carpeta cualquiera y en ella hacemos click derecho y abrimos *Git* que instalamos anteriormente, este nos va a abrir una terminal que nos concede una sería de comandos únicos que nos permiten el control de versiones
 
@@ -61,6 +78,9 @@ Correo:
     git config --global user.email "tu_correo_asignado_en_github"
 
 ## *Paso 5*: Vincular nuestro repositorio a la carpeta local
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 
 Primero vamos a crear un archivo *.git*, en esta carpeta, que esta oculta de forma predeterminada, es donde se almacenan los cambios sucedidos en nuestro codigo, para instalarla ejecutamos:
 
@@ -73,6 +93,9 @@ Ahora, utilizando la direccion HTTPS que guardamos en el paso 3, vamos a vincula
 De esta forma a partir de ahora todos los cambios que hagamos en esta carpeta, podrán verse reflejados en nuestro repositorio siempre y cuando hagamos lo siguiente ⬇️
 
 ## *Paso 6*: Realizar los primeros cambios a nuestro directorio
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 
 + Vamos a abrir el directorio local en nuestro IDE favorito, por ejemplo VisualStudioCode, una vez aquí creamos un archivo cualquier y lo editamos, yo por ejemplo voy a crear este README.md
 
@@ -105,6 +128,9 @@ Estos comandos se verían así la primera vez:
     git push
 
 ## *Paso 7* Visualizar cambios sucedidos entre Commits
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 
 Vamos a entrar a nuestro README.md y vamos a hacer un pocos cambios, por ejemplo una breve introducción.
 
@@ -140,6 +166,10 @@ Ahora bien, si queremos comparar que cambios se realizaron entre dos commits deb
 Esto nos indicará las diferencias(diff) que hay entre uno y otro.
 
 ## *Paso 8*: Aprender a trabajar con ramas de forma básica
+
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
 
 Imagina que estás escribiendo un libro y decides explorar diferentes subtramas o ideas para tu historia. Cada una de estas exploraciones la representas con una hoja de papel separada, donde desarrollas y expandes esa idea de forma independiente. Estas hojas de papel son como ramas en Git.
 
