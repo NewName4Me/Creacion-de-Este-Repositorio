@@ -4,10 +4,10 @@
 En este pequeño repositorio vas a aprender a como utilizar de forma básica herramientas como **Git** y **GitHub**
 Con el fin de realizar un **control de versiones adecuado**, aprender a trabajar en ramas y controlar los datos y cambios que suceden en nuestro programa o aplicación
 
--- RECUERDA PONER AQUI UNA IMAGEN DEL REPOSITORIO
 
 ## *Paso 1*:   Crearnos una cuenta en GitHub
 GitHub es una plataforma que permite a los desarrolladores colaborar en proyectos de software utilizando el sistema de control de version de **Git** que veremos posteriormente. Ofrece herramientas para gestionar proyectos, realizar seguimiento de código, colaborar con desarrolladores y alojar repositorios.
+
 
 ![Foto de mi Perfil de Github](https://github.com/NewName4Me/MediaForReadMe/blob/main/miperfil.png?raw=true)
 
@@ -18,15 +18,23 @@ A pesar de que podamos confundirla con **GitHub** porque da la sensación que ha
 
 ## *Paso 3*: Crearnos nuestro primer Repositorio
 + Vamos a la barra lateral y pulsamos en el apartado de repositorios, que si este es tu primer repositorio debería estar vacío
+
 ![Barra Lateral Git Hub](https://github.com/NewName4Me/MediaForReadMe/blob/main/lateral.png?raw=true)
+
 + Pulsamos en new para crear nuestro primer repositorio
+
 ![Barra Lateral Git Hub](https://github.com/NewName4Me/MediaForReadMe/blob/main/newrepository.png?raw=true)
+
 + Ahora indicamos el nombre de nuestro proyecto, en mi caso *'Creación de este repositorio'*, e indicamos si queremos que nuestro repositorio sea público o privado, es decir, si queremos que otros usuarios tengan acceso a este. Eso particularmente a nosotros no nos importa dado que nos podemos vincular este repositorio a una carpeta local independientemente de como sea este
+
 ![Barra Lateral Git Hub](https://github.com/NewName4Me/MediaForReadMe/blob/main/nombrerepositorio.png?raw=true)
+
 + Una vez le demos a publicar el propio *GitHub* nos proporcionará los comandos y pasos que debemos seguir para conectar ese repositorio a nuestra carpeta local. Pero como resulta muy confusa e incompleta, por ahora olvidalo y simplemente fijate en la dircción HTTPS que nos propociona, la cual se corresponde con la direccion de este repositorio, es lo único que nos importa.
+
 ![Barra Lateral Git Hub](https://github.com/NewName4Me/MediaForReadMe/blob/main/direccionreposirotio.png?raw=true)
 
 ## *Paso 4*: Crear Carpeta y Vincularla a Nuestro Repositorio
+
 + Primero de todo creamos una carpeta cualquiera y en ella hacemos click derecho y abrimos *Git* que instalamos anteriormente, este nos va a abrir una terminal que nos concede una sería de comandos únicos que nos permiten el control de versiones
 
 ![Foto de la consola en mi carpeta](https://github.com/NewName4Me/MediaForReadMe/blob/main/4.png?raw=true)
@@ -43,6 +51,7 @@ Correo:
     git config --global user.email "tu_correo_asignado_en_github"
 
 ## *Paso 5*: Vincular nuestro repositorio a la carpeta local
+
 Primero vamos a crear un archivo *.git*, en esta carpeta, que esta oculta de forma predeterminada, es donde se almacenan los cambios sucedidos en nuestro codigo, para instalarla ejecutamos:
 
     git init
@@ -170,6 +179,7 @@ Para movernos a una rama cualqueira basta con hacer:
     git checkout "nombreDeLaRamaEnLaQueQueramosTrabajar"
 
 ### *8.3*: Publicar una rama
+
 Una vez tenemos una rama creada y nos hemos movido a ella, ya podemos trabajar en esta, hacer los cambios pertinentes y todo lo necesario, incluso realizar comandos como *add, commit* para los cambios que hagamos poco a poco se guarden en *Git*, pero, para que estos cambios sean visibles en *GitHub* antes tenemos que publicar la rama, para ello hacemos:
 
     git push origin "nombreDeLaRama"
@@ -177,6 +187,7 @@ Una vez tenemos una rama creada y nos hemos movido a ella, ya podemos trabajar e
 En caso de que lo hubieramos hecho directamente en GitHub ya estaría publicada directamente y esto no es necesario.
 
 ### *8.4*: Eliminar ramas
+
 Si creemos que los cambios realizados no son necesarios, y queremos eliminarlos permanentemente junto con todos sus archivos hacemos lo siguiente:
 
     git branch -d "nombreDeLaRamaAEliminar"
@@ -192,4 +203,4 @@ La rama principal, siempre va a estar ahí, es la rama que dirige la historio de
 
     git merge "nombreDeLaRama"
 
-![Foto de Git Work Flow](https://github.com/NewName4Me/MediaForReadMe/blob/main/gitworkflow.png?raw=true)
+![Foto de Git Work Flow](https://github.com/NewName4Me/MediaForReadMe/blob/main/gitworkflow.jpg?raw=true)
