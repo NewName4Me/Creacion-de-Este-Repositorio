@@ -12,6 +12,7 @@ Con el fin de realizar un **control de versiones adecuado**, aprender a trabajar
 + [6. Realizar los primeros cambios en Nuestro Repositorio](#paso-6-realizar-los-primeros-cambios-a-nuestro-directorio)
 + [7. Visualizar los cambios sucedidos entre Commits](#paso-7-visualizar-cambios-sucedidos-entre-commits)
 + [8. Aprender a trabajar con ramas de forma Básica](#paso-8-aprender-a-trabajar-con-ramas-de-forma-básica)
++ [9. Clonacion y edición de un repositorio](#paso-9-clonar-repositorios)
 
 
 ## *Paso 1*:   Crearnos una cuenta en GitHub
@@ -148,6 +149,8 @@ Ahora bien, supongamos que pasa un tiempo, y quieres ver que tenías antes en tu
 
 Para ello, en caso de que nuestro repositorio este en GitHub, podemos hacerlo de forma gráfica muy sencillo, simplemente en nuestro repositorio, despues de la URL escribimos */commit/* (https://github.com/NewName4Me/Creacion-de-Este-Repositorio/commit/) y automaticamente veremos un lista de commits donde se indican los cambios sucedidos entre cada version
 
+O pulsar el *mensaje de commit* que aparece al lado del nombre del archivo y ver individualemnte ese commit que cambios a añadido
+
 ![Foto de los commits en GitHub](https://github.com/NewName4Me/MediaForReadMe/blob/main/commitgithub.png?raw=true)
 
 
@@ -251,3 +254,52 @@ La rama principal, siempre va a estar ahí, es la rama que dirige la historio de
     git merge "nombreDeLaRama"
 
 ![Foto de Git Work Flow](https://github.com/NewName4Me/MediaForReadMe/blob/main/gitworkflow.jpg?raw=true)
+
+## *Paso 9*: Clonar repositorios
+
+<div style="text-align: right">
+    <a href="#creación-de-este-repositorio">Volver al Índice</a>
+</div><br>
+
+
+Supongamos que tú, al estar leyendo este repositorio, y decides que o bien te gustaría tenerlo en tu escritorio, o por otro lado, ves algo que crees que necesita un cambio, ya sea información incorrecta, que puede ser mejor redactada o ves conveniente añadir información a este repositorio para colaborar juntos y hacer de este el mejor repositorio de todos. 
+
+Para ello, lo primero que necesitas es tener una copia exacta de este repositorio en tu ordenador, y poder llevarla al día. Para clonar el repositorio existen dos formas:
+
+**Forma Gráfica**:
+
+En GitHub pulsamos en **<>Code** y **abrir en GitHub Desktop**, esto te descargará una aplicación que podrás utilizar para ver los cambios sucedidos en tu código y hacer todo lo que has aprendido en los puntos anteriores de forma gráfica
+
+![Foto del Boton Open With Github Desktop](https://github.com/NewName4Me/MediaForReadMe/blob/main/openwithgithubdesktop.png?raw=true)
+
+**Por consola**:
+
+Accedes al repositorio en GitHub que quieres clonar, y copias su dirección (https://github.com/NewName4Me/Creacion-de-Este-Repositorio), una vez hecho esto vas a la carpeta donde quieres clonar el repositorio y ejecutas el comando:
+
+    git clone https://github.com/NewName4Me/Creacion-de-Este-Repositorio
+
+
+### *9.1*: Mantenerte al día del repositorio
+En este punto ya tienes una copia exacta de la última estancia de mi repositorio, pero ¿Cómo sabes si de verdad estás al día? ...
+Si en algún momento decido añadir cambios al repositorio tú no lo sabes ni tienes esos cambios, a menos que compruebes constantemente revisando en GitHUb que estás trabajando con la última versión y elimines la copia antigua y clones de nuevo la moderna, por tanto 
+
+¿Cómo vinculas la copia para que tome los cambios que haga en todo momento en el repositorio?
+
+**Forma Gráfica**:
+En la parte superior indicamos la rama en la que estamos trabajando y pulsamos en **fetch**, esto va a traernos todos los cambios sucedidos en esa rama a nuestro directorio local, de esa forma estamos al día de cualquier cambio que haya podido suceder que no estuvieramos al tanto.
+
+![Foto del Boton Fetch](https://github.com/NewName4Me/MediaForReadMe/blob/main/fetch.png?raw=true)
+
+
+**Por consola**:
+Para estar al tanto de los cambios por consola, primero tenemos que tomar toda la información que ha sucedido en nuestro repositorio, utilizando el comando:
+
+    git fetch 
+
+Esto hará que todo lo que haya sucedido se lo baje git, pero ahora **tenemos que aplicarl a la rama en la que estamos trabajando**, para ello hacemos lo siguiente:
+
+    git rebase "nombre_del_repositorio_del_que_obtenemos_la_informacion"/"nombre_de_la_rama_en_la_que_estemos_trabajando"
+
+Habitualmente se verá asi:
+
+    git rebase origin/main
